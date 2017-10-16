@@ -1,0 +1,19 @@
+%title
+  = "Reformas y rehabilitaciones - #{current_page.data.title}"
+
+%meta{ :charset => "utf-8" }/
+%meta{ :name => "format-detection", :content => "telephone=no"}/
+%meta{ :name => "viewport", :content => "width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" }/
+
+%meta{ :name => 'keywords', :content => 'Reformas y rehabilitaciones' }/
+%meta{ :name => 'date', :content => '2017' }/
+
+%link{:rel => 'icon', :href => "#{image_path 'favicon.ico'}", :type => 'image/x-ico'}
+%link{:rel => "stylesheet", :type => "text/css", :href  => "//fonts.googleapis.com/css?family=Montserrat:400,700"}
+
+/ IE stuff
+<!--[if lt IE 10]>
+= javascript_include_tag 'html5shiv.min.js'
+<![endif]-->
+
+= stylesheet_link_tag :application

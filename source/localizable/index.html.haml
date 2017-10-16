@@ -1,0 +1,24 @@
+.page
+
+  .old-ie{style: 'background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;'}
+    %a{href: 'http://windows.microsoft.com/en-US/internet-explorer/..'}
+      %img{src: "#{image_path 'ie8-panel/warning_bar_0000_us.jpg'}", height: '42', width: '820', alt: 'You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.'}
+
+  = partial "layouts/header", locals: {page: "index"}
+
+  %main.page-content
+    %section.text-center.well-sm
+      %h1.inset-6
+        Reformas y rehabilitaciones
+
+      .row.row-no-gutter.offset-3
+        .col-lg-3.col-md-6.col-xs-6
+          = link_to "#{image_path 'home-02_original.jpg'}", class: 'subnail', "data-lightbox" => "image" do
+            = image_tag 'home-02.jpg', alt:''
+            %span.subnail__overlay
+          .caption.text-center
+            %h3.text-bold
+              Spring
+            %p
+              If your lawn is in need of professional help call us for a free lawn analysis
+            = link_to 'learn more', '#', class: 'btn btn-sm btn-aylen-1'

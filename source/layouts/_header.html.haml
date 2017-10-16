@@ -1,0 +1,37 @@
+%header.page-header
+  .rd-navbar-wrap
+    %nav.rd-navbar{"data-rd-navbar-lg" => "rd-navbar-static"}
+      .rd-navbar-inner
+
+        .rd-navbar-panel
+          %button.rd-navbar-toggle{"data-rd-navbar-toggle" => ".rd-navbar"}
+            %span
+          .rd-navbar-brand
+            = link_to 'index.html', class: 'brand-name primary-color' do
+              %span.text-ubold.text-uppercase
+                Reformas y rehabilitaciones
+          %button.rd-collapse-toggle{"data-rd-navbar-toggle" => ".rd-navbar-info"}
+            %span
+
+        .top-header
+          %a.brand{href: "index.html"}
+          = link_to 'Reformas y rehabilitaciones', 'index.html'
+          -#= link_to 'index.html' do
+            = image_tag 'logo-dark.png', width:'466', height: '70', class: 'img-responsive', alt:''
+          %dl.rd-navbar-info
+            %dt
+              M:
+            %dd.text-bold
+              %a{href:"callto:#"}
+                +34 622 133 324
+
+        = partial 'layouts/nav_bar', locals: {page: "index"}
+
+    .text-center.bg-image
+      %h1.inset-6
+        Completely satisfying your
+        %br.hidden.visible-lg-block
+          lawn's specific needs
+      %h3.inset-6
+        Let us work hard on your yard
+      = link_to 'learn more ›', '#', class: 'btn btn-sm btn-aylen'
