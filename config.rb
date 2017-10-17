@@ -10,12 +10,20 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-# With alternative layout
-# page '/path/to/file.html', layout: 'other_layout'
-
 # General configuration
-activate :i18n, :mount_at_root => :es, :langs => [:es]
+activate :i18n, :mount_at_root => :es, :langs => [:es,:en]
 activate :sprockets
+
+# Methods defined in the helpers block are available in templates
+helpers do
+  def local_path(path)
+    if I18n.locale.to_s == "es"
+      "/#{path}"
+    else
+      "/#{I18n.locale.to_s}/#{path}"
+    end
+  end
+end
 
 # Reload the browser automatically whenever files change
 configure :development do
