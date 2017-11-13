@@ -4327,7 +4327,7 @@ html:not(.lt-ie10) .not-animated {
  * @section      Font Awesome 4.5.0 by  -  - @fontawesome
  * @author       @davegandy
  * @see          http://fontawesome.io
- * @license      Font: SIL OFL 1.1, CSS: MIT License 
+ * @license      Font: SIL OFL 1.1, CSS: MIT License
  */
 @font-face {
   font-family: 'FontAwesome';
@@ -12215,7 +12215,7 @@ img.mfp-img {
   right: 0;
   padding-top: 0; }
 
-/* 
+/*
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
@@ -12244,7 +12244,7 @@ img.mfp-img {
     opacity: 1; }
   100% {
     opacity: 0; } }
-/* 
+/*
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
@@ -12254,7 +12254,7 @@ img.mfp-img {
   -o-transition: height 500ms ease-in-out;
   transition: height 500ms ease-in-out; }
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -12362,7 +12362,7 @@ img.mfp-img {
 .no-js .owl-carousel {
   display: block; }
 
-/* 
+/*
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
@@ -12373,7 +12373,7 @@ img.mfp-img {
   -o-transition: opacity 400ms ease;
   transition: opacity 400ms ease; }
 
-/* 
+/*
  * 	Owl Carousel - Video Plugin
  */
 .owl-carousel .owl-video-wrapper {

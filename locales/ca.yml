@@ -1,9 +1,9 @@
 ---
-en:
+ca:
   company_name: "Reformas AVO"
   navbar:
-    home: Home
+    home: Inici
   index:
     section1:
     section2:
-      title: Before and After
+      title: "Abans i després"

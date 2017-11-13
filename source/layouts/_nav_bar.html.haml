@@ -1,4 +1,12 @@
 .rd-navbar-nav-wrap
   %ul.rd-navbar-nav
     %li{class: ("active" if page == "index")}
-      = link_to 'Home', 'index.html'
+      = link_to t("navbar.entry1"), 'index.html'
+    %li{class: ("active" if page == "test")}
+      = link_to t("navbar.entry2"), 'index.html'
+    %li{class: ("active" if page == "test")}
+      = link_to t("navbar.entry3"), 'index.html'
+    %li{class: ("active" if page == "test")}
+      = link_to t("navbar.entry4"), 'index.html'
+    %li{class: ("active" if page == "test")}
+      = link_to t("navbar.entry5"), 'index.html'

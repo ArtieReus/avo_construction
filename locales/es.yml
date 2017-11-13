@@ -1,5 +1,13 @@
 ---
 es:
+  company_name: "Reformas AVO"
+  navbar:
+    entry1: Inicio
+    entry2: Reformas Integrales
+    entry3: Cocina
+    entry4: Baño
+    entry5: Otros
+
   index:
     section1:
     section2:

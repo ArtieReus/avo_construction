@@ -11,7 +11,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # General configuration
-activate :i18n, :mount_at_root => :es, :langs => [:es,:en]
+activate :i18n, :mount_at_root => :es, :langs => [:es,:en,:ca]
 activate :sprockets
 
 # Methods defined in the helpers block are available in templates
